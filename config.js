@@ -1,8 +1,8 @@
 var cfg = {};
-var atlasPW = process.env.ATLAS_PASSWORD;
 
 cfg.env = 'localDevelopment';
-
+cfg.atlasPW = process.env.ATLAS_PASSWORD;
+cfg.mongoOptions = '?useNewUrlParser=true';
 
 cfg.localDevelopment = {
   app: {
@@ -32,7 +32,7 @@ cfg.awsProduction= {
   },
   // Atlas Cloud DB
   db: {
-    connectString: 'mongodb+srv://sandplunge:' + atlasPW + '@mongodev-pa5k3.mongodb.net/whose?retryWrites=true'
+    connectString: 'mongodb+srv://sandplunge:' + cfg.atlasPW + '@mongodev-pa5k3.mongodb.net/whose?retryWrites=true'
   }
 };
 
