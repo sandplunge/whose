@@ -39,14 +39,14 @@ use the views for presentation.
 
 
 ## To build/install this code (so far):
--Install Node.JS on your system
--Install NPM 
--Install a local MongoDB server
--Clone the code repo 
--Navigate to the root directory for the repo in a terminal (for Windows
+- Install Node.JS on your system
+- Install NPM 
+- Install a local MongoDB server
+- Clone the code repo 
+- Navigate to the root directory for the repo in a terminal (for Windows
  I recommend git-bash), and execute the command `npm install`
 
 ## To launch the server:
--From the repo root directory (i.e. ~/whos), execute the following:
- `DEBUG=~/whos:* && npm start`
+- From the repo root directory (i.e. ~/whose), execute the following:
+ `DEBUG=~/whose:* && npm start`
  
