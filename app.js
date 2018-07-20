@@ -10,8 +10,15 @@ var EntriesController = require('./controllers/entriesController');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+var hbs = require('express-handlebars');
+app.engine('hbs', hbs ({
+  extname: 'hbs',
+  defaultLayout: 'main',
+  layoutsDir:  __dirname + '/views/layouts/',
+  partialsDir: __dirname + '/views/partials/'
+}));
 app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, 'views'));
 
 app.use(logger('dev'));
 app.use(express.json());
