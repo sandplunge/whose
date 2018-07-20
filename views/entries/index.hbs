@@ -1,12 +1,10 @@
 <ul>
 {{#entries}}
   <li>
-    <strong>{{title}}</strong> - {{ author }} <br>
+    <span class="entry-title"><strong>{{title}}</strong> - {{ author }} </span><br>
     {{ timestamp }} : {{ content }}
-    <br>
+    <br><br>
   </li>
 {{ else }}
 {{/entries}}
 </ul>
-
-<a href="/entries/add">Add Entry</a>
