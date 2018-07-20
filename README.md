@@ -1,4 +1,4 @@
-# whos is a content platform for public anonymous diaries! Crazy, right?
+# WHOSE is a content platform for public anonymous diaries! Crazy, right?
 
 ## Check out our public development server 100% cloud hosted by AWS:
 
