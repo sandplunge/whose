@@ -5,10 +5,10 @@
    http://ec2-54-185-39-90.us-west-2.compute.amazonaws.com:3000/
 
 It's on the free-tier, so no performance promises (according to amazon).
-We set it up from scratch instead of leaning their newer plug and play
+We set it up from scratch instead of self-managing bundled packages of
 services. I'm not planning on much traffic yet, but honestly, if there's
 going to be scalability concerns I may move over to heroku. This is a fun
-idea, I'd really like it to become popular.
+idea, so I'd really like it to become popular.
 
 It will take a minute for the infrastructure to catch up with the idea,
 and I'm building the server with technologies that I've never used (but am
@@ -23,7 +23,7 @@ checking the progress.
 I planned this to be a 3 day build up of the skeletal structure, at which 
 point I wanted to start flushing out feature ideas and aesthetic elements.
 Since I'm learning as I go, this initial phase will probably last a week.
-I'm quickly falling in love with node, and I've spent a few days looking 
+I'm quickly falling in love with Node. I've spent a few days looking 
 at the many ways of doing things instead of diving right in with the 
 first approach that popped up on Google.
 
