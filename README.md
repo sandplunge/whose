@@ -15,12 +15,10 @@ and I'm building the server with technologies that I've never used (but am
 very excited to dive into)! 
 
 I'll be keeping the code public and synced with development frequently, so
-for a few days it will have very limited functionality. The design process
-is intentional, but fluidly coupled with my exploration of Node.JS and the
-modules available within the Node community. Though implementation will be
-flexible, the general structure will follow MVC patterns with the Express
-framework. The development server will be purely hosted using AWS, with a
-link available to those interested in checking the progress. 
+for a few days it will have very limited functionality. The general structure 
+will follow MVC patterns with the Express framework. The development server 
+will be purely hosted using AWS, with a link available to those interested in 
+checking the progress. 
 
 I planned this to be a 3 day build up of the skeletal structure, at which 
 point I wanted to start flushing out feature ideas and aesthetic elements.
@@ -51,4 +49,4 @@ use the views for presentation.
 ## To launch the server:
 -From the repo root directory (i.e. ~/whos), execute the following:
  `DEBUG=~/whos:* && npm start`
-
+ 
