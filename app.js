@@ -28,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
 app.get('/', HomeController.Index);
+app.get('/about', HomeController.About);
 app.get('/entries', EntriesController.Index);
 app.get('/entries/add', EntriesController.EntryAdd);
 app.post('/entries/add', EntriesController.EntryCreate);
