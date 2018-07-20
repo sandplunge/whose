@@ -1,9 +1,10 @@
 
 <form method="post" action="/entries/add">
-  <label>Title</label> <input name="title" type="text" />
-  <label>Author</label> <input name="author" type="text" value="anonymous" disabled />
   <br>
-  <textarea name="content" cols="70" rows="32"></textarea>
+  <label>Title</label> <input class="entryform" name="title" type="text" />
+  <label>Author</label> <input class="entryform" name="author" type="text" value="anonymous" disabled />
+  <br><br>
+  <textarea class="entryform" name="content" rows="16"></textarea>
   <br>
-  <input type="submit" value="Submit" />
+  <input class="entryform" type="submit" value="Submit" />
 </form>
