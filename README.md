@@ -1,5 +1,15 @@
 # whos is a content platform for public anonymous diaries! Crazy, right?
 
+## Check out our public development server 100% cloud hosted by AWS:
+
+   http://ec2-54-185-39-90.us-west-2.compute.amazonaws.com:3000/
+
+It's on the free-tier, so no performance promises (according to amazon).
+We set it up from scratch instead of leaning their newer plug and play
+services. I'm not planning on much traffic yet, but honestly, if there's
+going to be scalability concerns I may move over to heroku. This is a fun
+idea, I'd really like it to become popular.
+
 It will take a minute for the infrastructure to catch up with the idea,
 and I'm building the server with technologies that I've never used (but am
 very excited to dive into)! 
@@ -25,7 +35,9 @@ be using a local MongoDB server for now, with the mongoose module to
 address Models. I like how mongoose saves me a layer of abstraction on
 DB interactions in an MVC context. I'm leaning toward handlebars for a
 template rendering engine, mostly because pug(jade) has more of a logic
-feel and I like my templates to feel like a document. 
+feel and I like my templates to feel like a document. I may need more logic
+someday, but for now I want to try and keep the logic in the controllers &
+use the views for presentation.
 
 
 ## To build/install this code (so far):
